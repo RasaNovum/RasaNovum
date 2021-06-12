@@ -7,7 +7,7 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
 
-// special class for meals/crafted foods ie. sushi, souvlaki, salads
+// special class for default meals
 public class MealBase extends Item {
     public MealBase() {
         super(new Item.Properties()

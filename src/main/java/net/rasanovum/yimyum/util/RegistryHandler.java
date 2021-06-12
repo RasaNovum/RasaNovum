@@ -44,11 +44,12 @@ public class RegistryHandler {
 
       //meals
     public static final RegistryObject<MealBase> RAW_SALMON_SUSHI = ITEMS.register("raw_salmon_sushi", MealBase::new);
+    public static final RegistryObject<SushiMeal> RAW_COD_SUSHI = ITEMS.register("raw_cod_sushi", SushiMeal::new);
     /*
 
     TODO
 
-        public static final RegistryObject<SushiMeal> raw cod sushi
+
         public static final RegistryObject<SushiMeal> cooked cod sushi
         public static final RegistryObject<SushiMeal> cooked salmon sushi
         public static final RegistryObject<SushiMeal> nemo sushi
