@@ -43,18 +43,23 @@ public class RegistryHandler {
 
 
       //meals
-    public static final RegistryObject<MealBase> RAW_SALMON_SUSHI = ITEMS.register("raw_salmon_sushi", MealBase::new);
+    public static final RegistryObject<SushiMeal> RAW_SALMON_SUSHI = ITEMS.register("raw_salmon_sushi", SushiMeal::new);
     public static final RegistryObject<SushiMeal> RAW_COD_SUSHI = ITEMS.register("raw_cod_sushi", SushiMeal::new);
+    public static final RegistryObject<SushiMeal> COOKED_COD_SUSHI = ITEMS.register("cooked_cod_sushi", SushiMeal::new);
+    public static final RegistryObject<SushiMeal> COOKED_SALMON_SUSHI = ITEMS.register("cooked_salmon_sushi", SushiMeal::new);
+    public static final RegistryObject<SushiMeal> TROPICAL_SUSHI = ITEMS.register("tropical_sushi", SushiMeal::new);
+
+    public static final RegistryObject<MealBase> MUTTON_PILAF = ITEMS.register("mutton_pilaf", MealBase::new); // mutton + rice + carrot
+    public static final RegistryObject<MealBase> CHICKEN_RICE_BOWL = ITEMS.register("chicken_rice_bowl", MealBase::new); //chicken + rice + tomato -> "Chicken Machboos"
+
     /*
 
     TODO
 
 
-        public static final RegistryObject<SushiMeal> cooked cod sushi
-        public static final RegistryObject<SushiMeal> cooked salmon sushi
-        public static final RegistryObject<SushiMeal> nemo sushi
-        public static final RegistryObject<MealBase> middle eastern chicken rice and tomato(?) dish
-        public static final RegistryObject<MealBase> greek mutton rice and potato dish
+
+
+
         public static final RegistryObject<SaladMeal> mutton salad (mutton lettuce tomato)
         public static final RegistryObject<SaladMeal> chicken salad (chicken lettuce tomato)
 
