@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "yimyum:block/rice_seed_block"
+    },
+    "facing=south": {
+      "model": "yimyum:block/rice_seed_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yimyum:block/rice_seed_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "yimyum:block/rice_seed_block",
+      "y": 90
+    }
+  }
+}

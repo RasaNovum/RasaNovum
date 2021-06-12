@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+# A URL to refer people to when problems occur with this mod
+#issueTrackerURL="placeholderURL" #optional
+[[mods]]
+modId="yimyum"
+version="1.16.5-1.0"
+displayName="YimYum"
+
+logoFile="RNyimyum.png"
+authors="Rasa Novum Development team"
+description='''
+This mod from Rasa Novum is a mod that is aimed at adding some additional crops and food recipes, without being too far off from vanilla Minecraft.
+
+'''
+[[dependencies.yimyum]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+[[dependencies.yimyum]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
