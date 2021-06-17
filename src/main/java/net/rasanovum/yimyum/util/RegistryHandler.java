@@ -2,8 +2,14 @@ package net.rasanovum.yimyum.util;
 
 
 import net.minecraft.block.Block;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -56,10 +62,6 @@ public class RegistryHandler {
 
     TODO
 
-
-
-
-
         public static final RegistryObject<SaladMeal> mutton salad (mutton lettuce tomato)
         public static final RegistryObject<SaladMeal> chicken salad (chicken lettuce tomato)
 
@@ -93,8 +95,7 @@ public class RegistryHandler {
     boolean checkQuarkBool = QuarkCheck.quark_check.get();
 
 
-
-   public class CrateRegistry<checkQuarkBool> {
+    public class CrateRegistry<checkQuarkBool> {
         if (checkQuarkBool = true) {
         public static void main(String[] args) {
             // check for quark mod file in .minecraft/mods directory
@@ -115,7 +116,18 @@ public class RegistryHandler {
             }
         }
     }
-
      */
 
+    /*
+    TODO
+
+
+    if ((world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z))) != null && BiomeDictionary.hasType(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, world.func_241828_r().getRegistry(Registry.BIOME_KEY).getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))), BiomeDictionary.Type.FOREST))) {
+        if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+            ((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Biome is Forest"), (false));
+        }
+    }
+
+
+     */
 }
