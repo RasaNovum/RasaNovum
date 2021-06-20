@@ -15,10 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.rasanovum.yimyum.YimYum;
-import net.rasanovum.yimyum.blocks.BlockItemBase;
-import net.rasanovum.yimyum.blocks.CheeseBlock;
-import net.rasanovum.yimyum.blocks.FoodStorage;
-import net.rasanovum.yimyum.blocks.SeedBlock;
+import net.rasanovum.yimyum.blocks.*;
 import net.rasanovum.yimyum.items.*;
 import net.rasanovum.yimyum.config.Config;
 import net.rasanovum.yimyum.config.QuarkCheck;
@@ -85,6 +82,49 @@ public class RegistryHandler {
 
         // crates and such
     public static final RegistryObject<Block> BLOCK_OF_CHEESE = BLOCKS.register("cheese_block", CheeseBlock::new);
+    public static final RegistryObject<Block> TOMATO_CRATE = BLOCKS.register("tomato_crate", FoodStorage::new);
+    public static final RegistryObject<Block> LETTUCE_CRATE = BLOCKS.register("lettuce_crate", FoodStorage::new);
+    public static final RegistryObject<Block> BREAD_CRATE = BLOCKS.register("bread_crate", FoodStorage::new);
+    public static final RegistryObject<Block> POTATO_CRATE = BLOCKS.register("potato_crate", FoodStorage::new);
+    public static final RegistryObject<Block> BAKED_POTATO_CRATE = BLOCKS.register("baked_potato_crate", FoodStorage::new);
+    public static final RegistryObject<Block> CARROT_CRATE = BLOCKS.register("carrot_crate", FoodStorage::new);
+    public static final RegistryObject<Block> GOLDEN_CARROT_CRATE = BLOCKS.register("golden_carrot_crate", FoodStorage::new);
+    public static final RegistryObject<Block> APPLE_CRATE = BLOCKS.register("apple_crate", FoodStorage::new);
+    public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = BLOCKS.register("golden_apple_crate", FoodStorage::new);
+    public static final RegistryObject<Block> SWEET_BERRY_CRATE = BLOCKS.register("sweet_berry_crate", FoodStorage::new);
+    public static final RegistryObject<Block> PUMPKIN_CRATE = BLOCKS.register("pumpkin_crate", FoodStorage::new);
+    public static final RegistryObject<Block> MELON_CRATE = BLOCKS.register("melon_crate", FoodStorage::new);
+    public static final RegistryObject<Block> BEETROOT_CRATE = BLOCKS.register("beetroot_crate", FoodStorage::new);
+    public static final RegistryObject<Block> RED_MUSHROOM_CRATE = BLOCKS.register("red_mushroom_crate", FoodStorage::new);
+    public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = BLOCKS.register("brown_mushroom_crate", FoodStorage::new);
+    public static final RegistryObject<Block> CHORUS_CRATE = BLOCKS.register("chorus_crate", FoodStorage::new);
+    public static final RegistryObject<Block> POPPED_CHORUS_CRATE = BLOCKS.register("popped_chorus_crate", FoodStorage::new);
+    public static final RegistryObject<Block> SUGAR_CANE_CRATE = BLOCKS.register("sugar_cane_crate", FoodStorage::new);
+    public static final RegistryObject<Block> BAMBOO_CRATE = BLOCKS.register("bamboo_crate", FoodStorage::new);
+    public static final RegistryObject<Block> CACTUS_CRATE = BLOCKS.register("cactus_crate", FoodStorage::new);
+
+    public static final RegistryObject<Block> WHEAT_SACK = BLOCKS.register("wheat_sack", SeedStorage::new);
+    public static final RegistryObject<Block> RICE_SACK = BLOCKS.register("rice_sack", SeedStorage::new);
+    public static final RegistryObject<Block> SUGAR_SACK = BLOCKS.register("sugar_sack", SeedStorage::new);
+    public static final RegistryObject<Block> BEETROOT_SACK = BLOCKS.register("beetroot_sack", SeedStorage::new);
+    public static final RegistryObject<Block> COCOA_SACK = BLOCKS.register("cocoa_sack", SeedStorage::new);
+    public static final RegistryObject<Block> TOMATO_SACK = BLOCKS.register("tomato_sack", SeedStorage::new);
+    public static final RegistryObject<Block> LETTUCE_SACK = BLOCKS.register("lettuce_sack", SeedStorage::new);
+    public static final RegistryObject<Block> PUMPKIN_SACK = BLOCKS.register("pumpkin_sack", SeedStorage::new);
+    public static final RegistryObject<Block> MELON_SACK = BLOCKS.register("melon_sack", SeedStorage::new);
+    public static final RegistryObject<Block> CHORUS_FLOWER_SACK = BLOCKS.register("chorus_flower_sack", SeedStorage::new);
+
+    /*
+
+    TODO
+
+    crates
+
+        // COMMENTED OUT UNTIL v2.0
+            public static final RegistryObject<Block> NETHER_WART_CRATE = BLOCKS.register("nether_wart_crate", FoodStorage::new);
+            public static final RegistryObject<Block> WHEAT_CRATE = BLOCKS.register("wheat_crate", FoodStorage::new);
+
+     */
 
 
 
