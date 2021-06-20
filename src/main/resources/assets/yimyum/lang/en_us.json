@@ -9,7 +9,39 @@
   "item.yimyum.raw_salmon_sushi": "Raw Salmon Sushi",
   "item.yimyum.tomato_seed_block": "Tomato Seeds",
   "item.yimyum.rice_seed_block": "Rice Seeds",
-  "item.yimyum.lettuce_seed_block": "Lettuce Seeds"
+  "item.yimyum.lettuce_seed_block": "Lettuce Seeds",
+
+  "block.yimyum.potato_crate": "Potato Crate",
+  "block.yimyum.baked_potato_crate": "Baked Potato Crate",
+  "block.yimyum.tomato_crate": "Tomato Crate",
+  "block.yimyum.lettuce_crate": "Lettuce Crate",
+  "block.yimyum.carrot_crate": "Carrot Crate",
+  "block.yimyum.sugar_cane_crate": "Sugar Cane Crate",
+  "block.yimyum.pumpkin_crate": "Pumpkin Crate",
+  "block.yimyum.melon_crate": "Melon Crate",
+  "block.yimyum.beetroot_crate": "Beetroot Crate",
+  "block.yimyum.bread_crate": "Bread Crate",
+  "block.yimyum.golden_carrot_crate": "Golden Carrot Crate",
+  "block.yimyum.apple_crate": "Apple Crate",
+  "block.yimyum.golden_apple_crate": "Golden Apple Crate",
+  "block.yimyum.sweet_berry_crate": "Sweet Berry Crate",
+  "block.yimyum.bamboo_crate": "Bamboo Crate",
+  "block.yimyum.cactus_crate": "Cactus Crate",
+  "block.yimyum.red_mushroom_crate": "Red Mushroom Crate",
+  "block.yimyum.brown_mushroom_crate": "Brown Mushroom Crate",
+  "block.yimyum.chorus_crate": "Chorus Fruit Crate",
+  "block.yimyum.popped_chorus_crate": "Popped Chorus Fruit Crate",
+  "block.yimyum.wheat_sack": "Wheat Seed Sack",
+  "block.yimyum.sugar_sack": "Sugar Sack",
+  "block.yimyum.rice_sack": "Rice Sack",
+  "block.yimyum.tomato_sack": "Tomato Seed Sack",
+  "block.yimyum.lettuce_sack": "Lettuce Seed Sack",
+  "block.yimyum.melon_sack": "Melon Seed Sack",
+  "block.yimyum.pumpkin_sack": "Pumpkin Seed Sack",
+  "block.yimyum.chorus_flower_sack": "Chorus Flower Sack",
+  "block.yimyum.cocoa_sack": "Cocoa Bean Sack",
+  "block.yimyum.beetroot_sack": "Beetroot Seed Sack"
+
 
 
 }
