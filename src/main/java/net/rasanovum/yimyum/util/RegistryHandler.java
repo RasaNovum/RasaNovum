@@ -4,6 +4,7 @@ package net.rasanovum.yimyum.util;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Food;
+import net.minecraft.item.Foods;
 import net.minecraft.item.Item;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.math.BlockPos;
@@ -23,6 +24,7 @@ import net.rasanovum.yimyum.items.*;
 import net.rasanovum.yimyum.config.Config;
 import net.rasanovum.yimyum.config.QuarkCheck;
 import org.apache.logging.log4j.ThreadContext;
+import net.minecraftforge.fml.ModList;
 
 
 import java.io.File;
@@ -88,11 +90,39 @@ public class RegistryHandler {
 
 
 
+    public boolean checkCreateBool = ModList.get().isLoaded("create");
+
+
+    // not sure why errors are being thrown on the if statement within here, but runClient is broken so cant even test if this works pesn
+    public static class CrateRegistry<checkCreateBool> {
+
+        if (checkCreateBool = true) {
+
+            final RegistryObject<Block> RICE_CRATE = BLOCKS.register("rice_crate", FoodStorage::new);
+            final RegistryObject<Block> TOMATO_CRATE = BLOCKS.register("tomato_crate", FoodStorage::new);
+            final RegistryObject<Block> LETTUCE_CRATE = BLOCKS.register("lettuce_crate", FoodStorage::new);
+
+            final RegistryObject<Block> WHEAT_FLOUR_SACK = BLOCKS.register("wheat_flour_sack", SackStorage::new);
+            final RegistryObject<Block> HONEYED_APPLE_CRATE = BLOCKS.register("honeyed_apple_crate", FoodStorage::new);
+            final RegistryObject<Block> SWEET_ROLL_CRATE = BLOCKS.register("sweet_roll_crate", FoodStorage::new);
+            final RegistryObject<Block> GLAZED_BERRY_CRATE = BLOCKS.register("glazed_berry_crate", FoodStorage::new);
+
+        } else {
+
+            final RegistryObject<Block> RICE_CRATE = BLOCKS.register("rice_crate", FoodStorage::new);
+            final RegistryObject<Block> TOMATO_CRATE = BLOCKS.register("tomato_crate", FoodStorage::new);
+            final RegistryObject<Block> LETTUCE_CRATE = BLOCKS.register("lettuce_crate", FoodStorage::new);
+    }
+
+    }
+
     /*
 
     TODO
 
     boolean checkQuarkBool = QuarkCheck.quark_check.get();
+
+
 
 
     public class CrateRegistry<checkQuarkBool> {
